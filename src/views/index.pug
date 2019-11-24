@@ -7,5 +7,67 @@ html(lang="ru")
         link(href="styles/main.css" type="text/css" rel="stylesheet" media="all")
         title Web Development
     body
+        
+    
         p какашка 467
-        p ещё одна какашка 467 + попер
+        p.toto ещё одна какашка 467 + попер
+        p.hidd(style="background-color: yellow") скрытое окошко
+        button.btn.btn-secondary(id="jirka" type="button" data-toggle="tooltip" data-html="true" title="Tooltip") Кнопка с тултипом
+
+        button.btn.btn-primary(type="button" data-toggle="collapse" data-target="#collapseExample" data-expanded="false" aria-controls="collapseExample") Кнопка-сропка
+        .collapse(id="collapseExample")
+            p Текст, который должен быть скрыт, маза фака.
+  
+        nav.navbar.navbar-expand-lg.navbar-light.bg-light
+            .container
+                a.navbar-brand(href="#") Your logo
+                button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+                    span.navbar-toggler-icon
+                
+                div.collapse.navbar-collapse(id="navbarSupportedContent")
+                    ul.navbar-nav.ml-auto
+                        li.nav-item.active
+                            a.nav-link(href="#") Home <span class="sr-only">(current)</span>
+                        li.nav-item
+                            a.nav-link(href="#") About
+                        li.nav-item
+                            a.nav-link(href="#") Servicing
+                        li.nav-item
+                            a.nav-link(href="#") Portfolio
+                        li.nav-item
+                            a.nav-link(href="#") Blog
+                        li.nav-item
+                            a.nav-link(href="#") Contact us
+                    form.form-inline
+                        label(for="popa")
+                            img(src="icons/lupa.png" style="cursor: pointer")
+                        input.form-control.mr-sm-2(id="popa" type="search" placeholder="Search" aria-label="Search")
+
+        ul.nav
+            li.nav-item.active
+                a.nav-link(href="#") Соссос 11
+            li.nav-item
+                a.nav-link(href="#") Сосос 22
+
+        nav.navbar.navbar-expand-sm.navbar-light.bg-light
+            a.navbar-brand(href="#") Это Navbar Brand
+            button.navbar-toggler(data-target="#pisun" data-toggle="collapse") кнопка
+
+            .collapse.navbar-collapse(id="pisun")
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link(href="#") Первая ссылка
+                    li.nav-item
+                    a.nav-link(href="#") Вторая ссылка
+        
+        nav.navbar.navbar-expand-sm.navbar-light.bg-light.mt-3
+            a.navbar-brand(href="#") Brand
+            ul.navbar-nav
+                li.nav-item
+                    a.nav-link(href="#") Первая ссылочка
+                li.nav-item
+                    a.nav-link(href="#") Вторая ссылочка
+
+        script(type="text/javascript" src="scripts/bundle.js")
+
+
