@@ -14,12 +14,11 @@
 @import "./../../node_modules/bootstrap/scss/_tooltip.scss";
 @import "./../../node_modules/bootstrap/scss/_transitions.scss";
 
+@import "blocks/header";
+
 //@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
 
 
-p {
-    color: red
-}
 
 @import "main2.scss";
 #popa {

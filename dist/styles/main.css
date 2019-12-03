@@ -3092,6 +3092,9 @@ button.bg-dark:focus {
 .w-62px {
   width: 62px !important; }
 
+.w-30 {
+  width: 30% !important; }
+
 .w-62p {
   width: 62px !important; }
 
@@ -3112,6 +3115,9 @@ button.bg-dark:focus {
 
 .h-62px {
   height: 62px !important; }
+
+.h-30 {
+  height: 30% !important; }
 
 .h-62p {
   height: 62px !important; }
@@ -4777,8 +4783,15 @@ a.text-dark:hover, a.text-dark:focus {
     .collapsing {
       transition: none; } }
 
-p {
-  color: red; }
+.header {
+  color: white;
+  height: 36rem;
+  background: url("./../images/pexels-photo-356056.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 p {
   text-decoration: underline; }
