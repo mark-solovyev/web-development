@@ -8,74 +8,6 @@ html(lang="ru")
         title Web Development
     body
         
-        .buba солодовое пиво
-    
-        p какашка 467
-        p.toto ещё одна какашка 467 + попер
-        p.hidd(style="background-color: yellow") скрытое окошко
-        button.btn.btn-secondary(id="jirka" type="button" data-toggle="tooltip" data-html="true" title="Tooltip") Кнопка с тултипом
-
-        button.btn.btn-primary(type="button" data-toggle="collapse" data-target="#collapseExample" data-expanded="false" aria-controls="collapseExample") Кнопка-сропка
-        .collapse(id="collapseExample")
-            p Текст, который должен быть скрыт, маза фака.
-  
-        nav.navbar.navbar-expand-lg.navbar-light.bg-light
-            .container
-                a.navbar-brand(href="#") Your logo
-                button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
-                    span.navbar-toggler-icon
-                
-                div.collapse.navbar-collapse(id="navbarSupportedContent")
-                    ul.navbar-nav.ml-auto
-                        li.nav-item.active
-                            a.nav-link(href="#") Home <span class="sr-only">(current)</span>
-                        li.nav-item
-                            a.nav-link(href="#") About
-                        li.nav-item
-                            a.nav-link(href="#") Servicing
-                        li.nav-item
-                            a.nav-link(href="#") Portfolio
-                        li.nav-item
-                            a.nav-link(href="#") Blog
-                        li.nav-item
-                            a.nav-link(href="#") Contact us
-                    form.form-inline
-                        label(for="popa")
-                            img(src="icons/lupa.png" style="cursor: pointer")
-                        input.form-control.mr-sm-2(id="popa" type="search" placeholder="Search" aria-label="Search")
-
-        ul.nav
-            li.nav-item.active
-                a.nav-link(href="#") Соссос 11
-            li.nav-item
-                a.nav-link(href="#") Сосос 22
-
-        nav.navbar.navbar-expand-sm.navbar-light.bg-light
-            a.navbar-brand(href="#") Это Navbar Brand
-            button.navbar-toggler(data-target="#pisun" data-toggle="collapse") кнопка
-
-            .collapse.navbar-collapse(id="pisun")
-                ul.navbar-nav
-                    li.nav-item
-                        a.nav-link(href="#") Первая ссылка
-                    li.nav-item
-                    a.nav-link(href="#") Вторая ссылка
-        
-        nav.navbar.navbar-expand-sm.navbar-light.bg-light.mt-3
-            a.navbar-brand(href="#") Brand
-            ul.navbar-nav
-                li.nav-item
-                    a.nav-link(href="#") Первая ссылочка
-                li.nav-item
-                    a.nav-link(href="#") Вторая ссылочка
-
-        .card(style="width: 15rem")
-            img.card-img-top(style="width: 62px; height: 62px" src="images/icons/internet_62.png" alt="альтернативная строчка")
-            .card-body
-                h5.card-title Card Title
-                p.card-text Lorem ipsum sit amet, con-sectetur adipisicing elit, sed do elusmod tempor
-
-
 
         nav.navbar.navbar-light.bg-light.navbar-expand-lg
             .container
@@ -106,11 +38,14 @@ html(lang="ru")
         header.header
             h1.display-4 Web-development project
             p.lead Very suitable to support all web development projects
+            .button-block
+                button.btn.btn-outline-info(type="button") Our services
+                button.btn.btn-outline-info(type="button") Hire is now
 
 
         .container
 
-            .row
+            .row.py-7
                 .col-12
                     .card.w-75.mx-auto.border-0
                         .card-body
@@ -118,23 +53,23 @@ html(lang="ru")
                             p.card-text.text-center Это длиннющий текст, который мы сейчас растянем таким образом, чтобы он занимал много места и создавалось ощущение многострочного текста даже когда мы просмотриваем этот текст на широкоэкранном мониторе.
 
             .row
-                .col-4
+                .col-4.px-5
                     .card.border-0
                         img.card-img-top.w-62p.mx-auto(src="images/icons/internet_62.png" alt="альтернатива")
                         .card-body
                             h5.card-title.text-center Заголовок карточки
                             p.card-text.text-center Длинный текст карточки, ещё дополнительный текст, чтобы расширить карточку, который я не могу, блин, сгенерировать, потому что мне лень разбираться с плагином Lorem Ipsum
 
-                .col-4
+                .col-4.px-5
                     .card.border-0
-                        img.card-img-top.w-62p.mx-auto(src="images/icons/internet_62.png" alt="альтернатива")
+                        img.card-img-top.w-62p.mx-auto(src="images/icons/transfer_70-60.png" alt="альтернатива")
                         .card-body
                             h5.card-title.text-center Заголовок карточки
                             p.card-text.text-center Длинный текст карточки, ещё дополнительный текст, чтобы расширить карточку, который я не могу, блин, сгенерировать, потому что мне лень разбираться с плагином Lorem Ipsum
             
-                .col-4
+                .col-4.px-5
                     .card.border-0
-                        img.card-img-top.w-62p.mx-auto(src="images/icons/internet_62.png" alt="альтернатива")
+                        img.card-img-top.w-62p.mx-auto(src="images/icons/head_57-63.png" alt="альтернатива")
                         .card-body
                             h5.card-title.text-center Заголовок карточки
                             p.card-text.text-center Длинный текст карточки, ещё дополнительный текст, чтобы расширить карточку, который я не могу, блин, сгенерировать, потому что мне лень разбираться с плагином Lorem Ipsum
