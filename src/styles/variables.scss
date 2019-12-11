@@ -11,15 +11,28 @@ $spacers: (
   7: ($spacer * 5)
 );
 
-
 // ---
+
+$gray-1: #f0f1f1;
+$grays: (
+    "1": $gray-1
+);
 $popka-color: #f3332a;
+$turquoise: #00897b;
+$turquoise-light: #e4fdf9;
 $colors: (
+    "turquoise": $turquoise,
+    "turquoise2": $turquoise-light,
     "popka-color": $popka-color
 );
 
 // --
 $popka:         $popka-color;
+$wdev:    $turquoise;
 $theme-colors: (
-    "popka": $popka
+    "popka":  $popka,
+    "wdev":   $wdev
 );
+// --
+$btn-border-radius-lg: 0;
+
