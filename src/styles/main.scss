@@ -24,3 +24,10 @@
 #popa {
     color: green
 }
+button.btn.btn-outline-wdev {
+    text-transform: uppercase;
+    border-color: #fff;
+    &:hover{
+        border-color: transparent
+    }
+}
