@@ -6265,13 +6265,15 @@ a.text-wdev:hover, a.text-wdev:focus {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
 
 #popa {
   color: green; }
 
 button.btn.btn-outline-wdev {
   text-transform: uppercase;
-  border-color: #fff; }
+  border-color: #fff;
+  font-size: 1rem; }
   button.btn.btn-outline-wdev:hover {
     border-color: transparent; }
