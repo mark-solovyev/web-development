@@ -16,7 +16,17 @@ $spacers: (
   11: ($spacer * 5)
 );
 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  custom-breakpoint: 620px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
 // ---
+
 
 $gray-1: #f0f1f1;
 $grays: (
