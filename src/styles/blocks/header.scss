@@ -17,21 +17,39 @@
         align-items: center
     }
 
-        @include media-breakpoint-down(md) {
+        @include media-breakpoint-down(lg) {
             .display-4 {
                 font-size: 3rem
             }
         }
+        @media(max-width: 768px) {
+            .display-4 {
+                font-size: 2.5rem
+            }
+
+        }
+        /*
         @include media-breakpoint-down(sm) {
             .display-4 {
                 font-size: 2.5rem
             }
         }
-        @include media-breakpoint-down(xs) {
+        */
+        /*
+        @media(max-width: 576px) {
+            .display-4 {
+                font-size: 2rem
+            }
+
+        }
+        */
+        
+        @include media-breakpoint-down(sm) {
             .display-4 {
                 font-size: 2rem
             }
         }
+        
 }
 
 

@@ -7003,20 +7003,35 @@ a.text-wdev:hover, a.text-wdev:focus {
   background-size: cover;
   text-align: center;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  /*
+        @include media-breakpoint-down(sm) {
+            .display-4 {
+                font-size: 2.5rem
+            }
+        }
+        */
+  /*
+        @media(max-width: 576px) {
+            .display-4 {
+                font-size: 2rem
+            }
+
+        }
+        */ }
   .header__top {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1199.98px) {
     .header .display-4 {
       font-size: 3rem; } }
-  @media (max-width: 619.98px) {
+  @media (max-width: 768px) {
     .header .display-4 {
       font-size: 2.5rem; } }
-  @media (max-width: 575.98px) {
+  @media (max-width: 619.98px) {
     .header .display-4 {
       font-size: 2rem; } }
 
