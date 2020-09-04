@@ -17,7 +17,7 @@
     "gulp-rm": "^2.0.0",
     "gulp-sass": "^4.0.2",
     "jquery": "^3.4.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "popper.js": "^1.16.0",
     "webpack-stream": "^5.2.1"
   },
